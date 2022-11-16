@@ -1,0 +1,29 @@
+{
+  "name": "nicholas-portfolio",
+  "version": "1.0.0",
+  "description": "Nicholas's Website",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Nicholas Chandler<nschandler20@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.12",
+    "@chakra-ui/react": "^2.4.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^7.6.7",
+    "next": "^13.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-next": "^13.0.3",
+    "prettier": "^2.7.1"
+  }
+}
