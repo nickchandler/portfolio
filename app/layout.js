@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
       <body>
         <ChakraProvider>
           <Navbar />
-          <Container maxW="container.md" pt={14}>
+          <Container maxW="100%" pt={14} backgroundColor={'#e8dfc8'}>
             {children}
           </Container>
         </ChakraProvider>
